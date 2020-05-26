@@ -1,0 +1,161 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	color: #4E4E4E;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FFF8F4;
+}
+
+.even {
+	background-color:white; text-align:center;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.main{
+	margin-top:20px;
+ }
+}
+
+.ekko-lightbox-nav-overlay {
+	display:none;
+}
+
+h1{
+	font-weight: 700;
+}
+
+h4 {
+	font-size:1.2em;
+	font-weight:700;
+	margin-bottom:0;
+	margin-top:8px;
+}
+
+h5{
+	font-size:0.9em;
+text-transform: uppercase;
+	color: #F5876E;
+
+}
+
+h3 {
+	font-weight:300;
+}
+
+h6 {
+	font-size:1.5em;
+	font-weight:300;
+}
+.name {
+	color: #F5876E;
+}
+
+.btn {
+		background-color: #F5876E;
+		color:white;
+			border: 2px solid #F5876E;
+
+}
+
+.btn:hover {
+	background-color:transparent;
+	color: #F5876E;
+	border: 2px solid #F5876E;
+}
+
+h2 {
+		color: #F5876E;
+
+	font-size:1.2em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.navbar-brand{
+line-height:12pt;
+font-weight:700;
+padding:5px;
+}
+
+.nav-link {
+	font-weight:500;
+	font-size:1.2em;
+}
+
+.nav-link.active {
+	color: #F5876E !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.nav-link::first-letter {
+  color: #F5876E;
+}
+
+.navbar-nav > li > a:hover > span {
+	border-bottom: 3px solid #F5876E;
+}
+
+@media (max-width: 767.98px) { 
+
+.btn-lg {
+	display:none;
+	} }
+
+
+@media (max-width: 991.98px) { 
+.main {
+	text-align:center;
+}
+
+.nav-link{
+	text-align:center;
+}
+ 
+}
+
+h4 {
+	padding-top:0.5em;
+}
+
+.box {
+	background-color: white;
+	padding:10px;
+	height:100%;
+
+}
+
+.equal > .col-md-4 {
+	padding-bottom:10px;
+	padding-top:10px;
+}
+/*
+.box img {
+  object-fit: cover;   object-position: center; 
+  height: 250px;
+  width: 100%;
+}*/
+
+.navbar {
+
+	background-color: #FFF8F4;
+}
+
+.box p {
+	padding-left:10px;
+	padding-right:10px;
+	font-size:0.9em;
+}
+
+.box img:hover {
+	border: 1px dashed #F5876E !important;
+}

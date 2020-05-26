@@ -3,6 +3,8 @@
 <head>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -55,11 +57,11 @@
 	</div>
 	</div>
 
-<div class="container-fluid even py-5" id="about">
+<div class="container-fluid even py-5" data-aos="fade-up" id="about">
 <div class="container p-5" >
 	<h1>Here are some of the things I do:</h1>
 
-	<div class="row">
+	<div class="row" data-aos="fade-up">
 		<div class="col-md-4 px-lg-5">
 			<img src="images/porto3.png" class="img-fluid">
 			<h2>Design & Code</h2>
@@ -82,10 +84,10 @@
 <!--portfolio-->
 
 <div class="container-fluid py-3" style="text-align:center" id="portfolio" >
-<div class="container px-lg-5 py-5">
+<div class="container px-lg-5 py-5" data-aos="fade-up">
 	<h1>Portfolio</h1>
 	<h3 class="pt-0">Some of the projects I have done before:</h3>
-<div class="row equal">
+<div class="row equal" data-aos="fade-up">
 	<div class="col-md-4">
 		<div class="box">
 			<a href="port/apps.png" data-toggle="lightbox" data-gallery="gallery"><img src="port/apps.png" class="img-fluid border"></a>
@@ -114,7 +116,7 @@
 	</div>
 </div>
 
-<div class="row equal">
+<div class="row equal" data-aos="fade-up">
 	<div class="col-md-4">
 		<div class="box">
 			<a href="port/vector.png" data-toggle="lightbox" data-gallery="gallery"><img src="port/vector.png" class="img-fluid border"></a>
@@ -142,7 +144,7 @@
 	</div>
 </div>
 
-<div class="row equal pb-4">
+<div class="row equal pb-4" data-aos="fade-up">
 	<div class="col-md-4">
 		<div class="box">
 			<a href="port/book.png" data-toggle="lightbox" data-gallery="gallery"><img src="port/book.png" class="img-fluid"></a>
@@ -181,13 +183,17 @@
 
 <!--form-->
 
-<div class="container-fluid even pt-5 pb-4" id="contact">
-<div class="typeform-widget" data-url="https://devonna.typeform.com/to/V4VWz2" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #FFF;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=V4VWz2&utm_source=typeform.com-01E958ZBSPDAWTQ70QMBWCNZ8C-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #FFF" target="_blank">Typeform</a> </div>
+<div class="container-fluid even pt-5 pb-4" id="contact" data-aos="fade-up">
+<div class="typeform-widget" data-url="https://devonna.typeform.com/to/V4VWz2" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> 
 </div>
 
 
 
 <!--JS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init({disable: 'mobile'});
+</script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
